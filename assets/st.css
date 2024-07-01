@@ -1,77 +1,63 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: url('background.jpg') no-repeat center center fixed; /* Replace 'background.jpg' with your image path */
-    background-size: cover; /* Cover the entire background */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Do not repeat the background image */
-    height: 100vh; /* Ensure full viewport height coverage */
-    margin: 0; /* Remove default margin */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: url('background.jpg') no-repeat center center fixed; /* Update with your background image */
+    background-size: cover;
 }
 
 .signup-container {
-    background-color: #fff;
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center; /* Center content horizontally */
-}
-
-h2 {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
     text-align: center;
-    color: #333;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+.signup-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-label {
-    margin-bottom: 8px;
-    color: #666;
+.signup-container label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
 }
 
-input[type="text"],
-input[type="password"] {
+.signup-container input {
+    width: 100%;
     padding: 8px;
-    margin-bottom: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
 }
 
-button {
+.signup-container button {
+    width: 100%;
     padding: 10px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #007BFF;
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
 }
 
-button:hover {
+.signup-container button:hover {
     background-color: #0056b3;
 }
 
 .social-login {
-    text-align: center;
     margin-top: 20px;
 }
 
-.social-icons {
-    display: flex;
-    justify-content: center;
+.social-login p {
+    margin-bottom: 10px;
 }
 
 .social-icons a {
@@ -79,23 +65,10 @@ button:hover {
 }
 
 .social-icons img {
-    width: 40px; /* Adjust as needed */
-    height: 40px; /* Adjust as needed */
-    border-radius: 50%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 32px;
+    height: 32px;
 }
 
-        .signup-container {
-            background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent white background */
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 300px;
-            text-align: center; /* Center content horizontally */
-        }
-        
-        h2 {
-            color: #333;
-        }
-        
-        /* Add more custom styling as needed */
+.signup-container p {
+    margin-top: 20px;
+}
