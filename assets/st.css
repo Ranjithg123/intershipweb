@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image path */
+    background: url('background.jpg') no-repeat center center fixed; /* Replace 'background.jpg' with your image path */
     background-size: cover; /* Cover the entire background */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
